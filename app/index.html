@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="hangApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>HAng - Hex Angular</title>
+
+    <!-- Shared -->
+    <base href="/app/">
+    <script src="dist/js/hang.js"></script>
+
+    <!-- Application -->
+    <script src="dist/js/app.js"></script>
+
+    <!-- CSS -->
+    <link id="theme-css" href="http://hex.wds.io/0.5.4/css/themes/iron-patriot.min.css" rel="stylesheet" type="text/css"> <!-- Hang CSS -->
+    <link href="dist/css/app.css" rel="stylesheet" type="text/css"> <!-- App CSS -->
+  </head>
+  <body class="theme-iron-patriot">
+    <header class="navbar navbar-fixed-top navbar-default">
+      <nav class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+              <span class="fa-stack fa-2x text-primary">
+                <i class="fa fa-shield fa-stack-2x"></i>
+                <i class="fa fa-h fa-stack-1x">H</i>
+                <i class="fa fa-a fa-stack-1x text-primary">A</i>
+                <i class="fa fa-ng fa-stack-1x text-primary">ng</i>
+              </span>
+          </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="example">Examples</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container" ui-view>
+
+    </main>
+    <footer class="container">
+    </footer>
+  </body>
+</html>

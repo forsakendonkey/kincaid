@@ -1,0 +1,32 @@
+body {
+  font-family: matterhorn !important;
+}
+header.navbar-default {
+  background-color: #fff;
+}
+header .navbar-brand {
+  margin-top: -16px;
+  margin-left: -45px !important;
+  margin-right: 15px;
+}
+header .navbar-brand .fa-stack {
+  background-color: white;
+}
+header .navbar-brand .fa-h {
+  margin: -4px 0 0 -9px;
+  color: white;
+  font-family: matterhorn;
+}
+header .navbar-brand .fa-a {
+  margin: -4px 0 0 8px;
+  font-family: matterhorn;
+}
+header .navbar-brand .fa-ng {
+  margin: -6px 0 0 43px;
+  font-family: matterhorn;
+  font-size: 24px;
+}
+main.container {
+  margin-top: 80px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9sZXNzL2FwcC5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0NBQUE7O0FBSUEsTUFBQztFQUNDLHNCQUFBOztBQUZKLE1BS0U7RUFDRSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7O0FBUkosTUFLRSxjQUlFO0VBQ0UsdUJBQUE7O0FBVk4sTUFLRSxjQU9FO0VBQ0UscUJBQUE7RUFDQSxZQUFBO0VBQ0EsdUJBQUE7O0FBZk4sTUFLRSxjQVlFO0VBQ0Usb0JBQUE7RUFDQSx1QkFBQTs7QUFuQk4sTUFLRSxjQWdCRTtFQUNFLHFCQUFBO0VBQ0EsdUJBQUE7RUFDQSxlQUFBOztBQU1KLElBQUM7RUFDQyxnQkFBQSJ9 */
