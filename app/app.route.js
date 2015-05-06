@@ -9,9 +9,14 @@ angular.module('hangApp').config(function($stateProvider, $urlRouterProvider, $l
     //
     // State definitions
     $stateProvider
-        .state('example',{
+        .state('home',{
             url: "/",
             templateUrl:'features/example/templates/template.html',
             controller:'ExampleController as ec'
+        })
+        .state('wedding',{
+            url: "/wedding",
+            templateUrl:'features/wedding/templates/template.html',
+            controller:'WeddingController as wc'
         });
 });
