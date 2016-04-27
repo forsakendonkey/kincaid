@@ -5,12 +5,12 @@ angular.module('hangApp').config(function($stateProvider, $urlRouterProvider, $l
     $locationProvider.html5Mode(true);
 
     // Unmatched urls redirect to /
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/home');
     //
     // State definitions
     $stateProvider
         .state('home',{
-            url: "/",
+            url: "/home",
             templateUrl:'features/example/templates/template.html',
             controller:'ExampleController as ec'
         })
