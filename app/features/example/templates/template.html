@@ -1,29 +1,2 @@
 <h1>Welcome</h1>
-<article class="row">
-    <p class="col-xs-12">
-        The following page shows examples of dynamic values, binded values, array iteration, ajax data return and more.  View the source for the details!
-    </p>
-</article>
 
-<h3>{{header}}</h3>
-<article class="row">
-    <div class="col-xs-12">
-        <p>Current Value: <span ng-bind="count"></span></p>
-        <button class="btn btn-primary" ng-click="getCount()">Add</button>
-    </div>
-</article>
-
-<h3>Iterate an Array</h3>
-<article class="row">
-    <div class="col-xs-2" ng-repeat="number in arrayOfNumber">
-        Div {{number}}
-    </div>
-</article>
-
-<h3>Ajax Data from a Service</h3>
-<article class="row">
-    <div class="col-xs-12">
-        <div ng-bind="ip"></div>
-        <button class="btn btn-primary" ng-click="getIP()">Get IP</button>
-    </div>
-</article>
